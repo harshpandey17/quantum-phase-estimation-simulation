@@ -196,7 +196,7 @@ The total variation distance is calculated to quantify the difference between th
 $$
 D_{\mathrm{TV}}(P,Q)
 =
-\frac12\sum_m|P(m)-Q(m)|
+\frac{1}{2}\sum_m |P(m)-Q(m)|
 $$
 
 This provides a quantitative measure of the agreement between the simulated and theoretical distributions.
