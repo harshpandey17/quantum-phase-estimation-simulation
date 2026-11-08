@@ -193,11 +193,9 @@ The simulation generates the following output files:
 
 The total variation distance is calculated to quantify the difference between the empirical and theoretical probability distributions:
 
-$$
-D_{\mathrm{TV}}(P,Q)
-=
-\frac{1}{2}\sum_m |P(m)-Q(m)|
-$$
+```math
+D_{\mathrm{TV}}(P,Q)=\frac{1}{2}\sum_m |P(m)-Q(m)|
+```
 
 This provides a quantitative measure of the agreement between the simulated and theoretical distributions.
 
